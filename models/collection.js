@@ -15,7 +15,7 @@ module.exports = (sequelize, Sequelize) => {
       allowNull: true,
     },
     img: {
-      type: Sequelize.TEXT,
+      type: Sequelize.TEXT('long'),
       allowNull: true,
     },
     userId: {
